@@ -1,0 +1,11 @@
+//0002
+message LoginRequest{
+String msgName;
+String sessionKey;
+String uuId;
+}
+//0001
+message LoginNotify{
+String msgName;
+Number ret;
+}
